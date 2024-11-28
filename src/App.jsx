@@ -12,7 +12,8 @@ function App() {
       style={{
         backgroundImage: `url(${Vector})`,
         backgroundSize: window.innerWidth < 768 ? "28%" : "9%",
-        backgroundPosition: "center 35%",
+        backgroundPosition:
+          window.innerWidth < 768 ? "center 46%" : "center 35%",
         backgroundRepeat: "no-repeat",
       }}
     >

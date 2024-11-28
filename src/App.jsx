@@ -11,18 +11,12 @@ function App() {
       className="bg-[#F3F3F4]"
       style={{
         backgroundImage: `url(${Vector})`,
-        backgroundSize: "9%",
+        backgroundSize: window.innerWidth < 768 ? "28%" : "9%",
         backgroundPosition: "center 35%",
         backgroundRepeat: "no-repeat",
       }}
     >
       <div className="container mx-auto">
-        {/* <img
-          alt="Logo"
-          className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-1"
-          style={{ maxWidth: "120px" }}
-          src={Vector}
-        /> */}
         <main className="flex flex-col md:flex-row min-h-screen max-w-7xl mx-auto">
           <Left />
           {/* <Right className="relative z-10" /> */}

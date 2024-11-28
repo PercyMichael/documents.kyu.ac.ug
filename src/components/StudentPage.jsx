@@ -56,7 +56,7 @@ const StudentPage = () => {
                 style={{ maxHeight: "100px" }}
               />
             </div>
-            <div className="border border-[#00aeef] border-dashed h-full w-5/6">
+            <div className="border border-[#00aeef] border-dashed h-full w-5/6 overflow-auto">
               <table class="m-0 text-xs striped-table text-left">
                 <tbody>
                   <tr>
@@ -120,7 +120,7 @@ const StudentPage = () => {
           <div className="text-uppercase text-[#00aeef] text-xs font-bold mb-2 py-1 px-2 text-center bg-white bg-opacity-90">
             COURSES/MODULES REGISTERED
           </div>
-          <div className="border border-[#00aeef] border-dashed my-2">
+          <div className="border border-[#00aeef] border-dashed my-2 overflow-auto">
             <table className="table-auto text-xs m-0 table-striped bg-opacity-61 striped-table">
               <thead className="border-bottom font-black text-xs">
                 <tr>

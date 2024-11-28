@@ -8,11 +8,12 @@ const StudentPage = () => {
   return (
     <>
       <div
-        className="text-sm p-3 border-2 border-[#00aeef] bg-white w-11/12 bg-center"
+        className="text-sm p-3 border-2 border-[#00aeef] bg-white w-11/12"
         style={{
           backgroundImage: `url(${Logo})`,
           backgroundSize: "65%",
           backgroundRepeat: "no-repeat",
+          backgroundPosition: window.innerWidth < 768 ? "center 44%" : "center",
         }}
       >
         <div style={{ backgroundColor: "rgba(255, 255, 255, 0.835)" }}>
@@ -121,7 +122,7 @@ const StudentPage = () => {
             COURSES/MODULES REGISTERED
           </div>
           <div className="border border-[#00aeef] border-dashed my-2 overflow-auto">
-            <table className="table-auto text-xs m-0 table-striped bg-opacity-61 striped-table">
+            <table className="table-auto text-xs m-0 table-striped bg-white striped-table">
               <thead className="border-bottom font-black text-xs">
                 <tr>
                   <th

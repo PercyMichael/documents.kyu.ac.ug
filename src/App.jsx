@@ -20,7 +20,7 @@ function App() {
       <div className="container mx-auto">
         <main className="flex flex-col md:flex-row min-h-screen max-w-7xl mx-auto">
           <Left />
-          {/* <Right className="relative z-10" /> */}
+          <Right />
         </main>
       </div>
       <footer class="mt-auto text-center bg-[#FD7213] text-white w-100 py-4 text-sm font-bold">

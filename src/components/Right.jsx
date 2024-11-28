@@ -16,7 +16,7 @@ const Right = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center text-center h-full w-1/2 py-12">
+    <div className="flex flex-col items-center text-center h-full w-full md:w-1/2 py-12">
       <div className="text-center flex flex-col items-center">
         <span className="text-[#00aeef]">
           <svg

@@ -285,16 +285,6 @@ const StudentPage = () => {
             <h5 className="font-bold text-sm mt-1">ACADEMIC REGISTRAR</h5>
           </div>
         </div>
-
-        {/* button */}
-        <div className="text-center">
-          <button
-            type="submit"
-            className="text-xs text-white bg-[#00aeef] text-uppercase font-bold my-4 py-1 px-2 rounded-md"
-          >
-            <span>USE STUDENT NUMBER</span>
-          </button>
-        </div>
       </div>
       {/* end button */}
     </>

@@ -3,7 +3,7 @@ import Logo from "../assets/institution_logo-ADF-1727950070363.png";
 
 const Left = () => {
   return (
-    <div className="h-full w-full md:w-1/2 px-8">
+    <div className="h-full w-full md:w-1/2 px-6">
       <div className="flex flex-col items-center text-center pt-12">
         <img src={Logo} width="160" height="100" />
         <div className="align-centre mt-2 h6 fw-bold uppercase mb-4">

@@ -15,7 +15,7 @@ const selectAfter = (
 const FeesBalance = () => {
   return (
     <div className="w-full md:w-1/2 py-12 px-6">
-      <div className="text-center flex flex-col items-centers">
+      <div className="text-center flex flex-col items-center">
         <span className="text-[#00aeef]">
           <svg
             stroke="currentColor"
@@ -51,8 +51,16 @@ const FeesBalance = () => {
         Reload
       </Button>
 
-      <div className="flex my-4 w-full gap-x-2">
-        <div className="h-full w-5/6 overflow-auto">
+      <div className="flex flex-col items-center my-4 w-full gap-x-2">
+        <img
+          alt="avatar"
+          className="ant-image-img text-centertext-center mt-4 css-g1befh md:hidden pb-2"
+          src={Student}
+          width="130"
+          height="100"
+          style={{ maxHeight: "120px" }}
+        />
+        <div className="h-full w-full md:w-5/6 overflow-auto">
           <table className="text-xs striped-table">
             <tbody>
               <tr>
@@ -112,7 +120,7 @@ const FeesBalance = () => {
           style={{ backgroundColor: "#FF4F50" }}
           className="text-white border-none font-bold uppercase"
         >
-          Reload
+          CANCEL
         </Button>
       </div>
     </div>

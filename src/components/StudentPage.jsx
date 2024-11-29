@@ -22,7 +22,7 @@ const StudentPage = () => {
             <div className="h-full">
               <img
                 alt="Logo"
-                className="ant-image-img mx-auto bg-white css-g1befh"
+                className="ant-image-img mx-auto w-14 md:w-full bg-white css-g1befh"
                 style={{ maxWidth: "80px" }}
                 src={Logo}
               />

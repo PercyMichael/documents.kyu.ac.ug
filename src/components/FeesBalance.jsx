@@ -1,7 +1,8 @@
 import { Button, Input, Select } from "antd";
 import React from "react";
-import Student from "../assets/2400801346.jpeg";
+import Student from "../assets/1732182241097_MON_0628.jpg";
 import { CloseSquareFilled } from "@ant-design/icons";
+import { studentDetail } from "../data/Students";
 
 const selectAfter = (
   <Select defaultValue="REG. DETAILS">
@@ -38,7 +39,7 @@ const FeesBalance = () => {
       </p>
       <Input
         addonAfter={selectAfter}
-        defaultValue="2400801346"
+        defaultValue={studentDetail.studentNo}
         className="py-2"
       />
       <Button
@@ -63,7 +64,7 @@ const FeesBalance = () => {
                     <img
                       alt="avatar"
                       className="ant-image-img text-centertext-center mt-4 css-g1befh"
-                      src="https://documents.kyu.ac.ug/photos/student-photos/2400801346.jpeg"
+                      src={Student}
                       width="100"
                       height="100"
                       style={{ maxHeight: "120px" }}
@@ -71,7 +72,7 @@ const FeesBalance = () => {
                   </div>
                 </td>
                 <td>STUDENT NAMES</td>
-                <td className="font-bold">MWESIGWA Jennar</td>
+                <td className="font-bold"> {studentDetail.name}</td>
               </tr>
               <tr>
                 <td>PROGRAMME</td>

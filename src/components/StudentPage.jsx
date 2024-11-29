@@ -2,7 +2,8 @@ import React from "react";
 import "../App.css";
 import Signature from "../assets/ARsignature.c7e73db04e648024d2c5.png";
 import Logo from "../assets/institution_logo-ADF-1727950070363.png";
-import Student from "../assets/2400801346.jpeg";
+import Student from "../assets/1732182241097_MON_0628.jpg";
+import { studentDetail } from "../data/Students";
 
 const StudentPage = () => {
   return (
@@ -65,7 +66,7 @@ const StudentPage = () => {
                       FULL NAME:
                     </td>
                     <td colspan="2" class="border">
-                      MWESIGWA Jennar
+                      {studentDetail.name}
                     </td>
                     <td colspan="1" class="border">
                       <strong>FEES BAL DUE: </strong>0 UGX
@@ -80,13 +81,13 @@ const StudentPage = () => {
                   <tr>
                     <td class="font-bold border">STUDENT NO.:</td>
                     <td colspan="3" class="border">
-                      2400801346
+                      {studentDetail.studentNo}
                     </td>
                   </tr>
                   <tr>
                     <td class="font-bold border">REGISTRATION NO.:</td>
                     <td colspan="3" class="border">
-                      24/U/AFE/1346/PE
+                      {studentDetail.registrationNo}
                     </td>
                   </tr>
                   <tr>

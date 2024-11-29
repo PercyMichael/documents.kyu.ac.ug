@@ -4,6 +4,7 @@ import Spinner from "../assets/Rolling@1x-1.0s-200px-200px.gif";
 
 import StudentPage from "./StudentPage";
 import FeesBalance from "./FeesBalance";
+import { studentDetail } from "../data/Students";
 
 const Right = () => {
   const [loading, setLoading] = useState(true); // State to manage loading
@@ -53,7 +54,7 @@ const Right = () => {
           ) : (
             <>
               <div className="text-xs font-bold text-center text-[#bd3128] p-2 border border-gray-300 bg-white w-11/12 mb-6">
-                SEARCH TERM: 2400801346
+                SEARCH TERM: {studentDetail.studentNo}
               </div>
 
               <StudentPage />

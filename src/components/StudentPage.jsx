@@ -18,11 +18,11 @@ const StudentPage = () => {
         }}
       >
         <div style={{ backgroundColor: "rgba(255, 255, 255, 0.835)" }}>
-          <header className="flex justify-start items-start gap-x-6 pb-2">
+          <header className="flex justify-start items-center md:items-start gap-x-6 pb-2">
             <div className="h-full">
               <img
                 alt="Logo"
-                className="ant-image-img mx-auto w-14 md:w-full bg-white css-g1befh"
+                className="ant-image-img mx-auto w-10 md:w-full bg-white css-g1befh"
                 style={{ maxWidth: "80px" }}
                 src={Logo}
               />

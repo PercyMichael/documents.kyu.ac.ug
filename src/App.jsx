@@ -11,7 +11,7 @@ function App() {
       className="bg-[#F3F3F4]"
       style={{
         backgroundImage: `url(${Vector})`,
-        backgroundSize: window.innerWidth < 768 ? "28%" : "9%",
+        backgroundSize: window.innerWidth < 768 ? "25%" : "9%",
         backgroundPosition:
           window.innerWidth < 768 ? "center 18%" : "center 35%",
         backgroundRepeat: "no-repeat",

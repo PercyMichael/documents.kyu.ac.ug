@@ -13,7 +13,7 @@ function App() {
         backgroundImage: `url(${Vector})`,
         backgroundSize: window.innerWidth < 768 ? "28%" : "9%",
         backgroundPosition:
-          window.innerWidth < 768 ? "center 48%" : "center 35%",
+          window.innerWidth < 768 ? "center 18%" : "center 35%",
         backgroundRepeat: "no-repeat",
       }}
     >

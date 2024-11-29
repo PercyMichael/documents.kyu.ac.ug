@@ -60,7 +60,7 @@ const FeesBalance = () => {
           height="100"
           style={{ maxHeight: "120px" }}
         />
-        <div className="h-full w-full md:w-5/6 overflow-auto">
+        <div className="h-full w-full md:w-5/6 overflow-auto ">
           <table className="text-xs striped-table w-full">
             <tbody>
               <tr>

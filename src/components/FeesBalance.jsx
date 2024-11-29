@@ -61,7 +61,7 @@ const FeesBalance = () => {
           style={{ maxHeight: "120px" }}
         />
         <div className="h-full w-full md:w-5/6 overflow-auto">
-          <table className="text-xs striped-table">
+          <table className="text-xs striped-table w-full">
             <tbody>
               <tr>
                 <td rowspan="7" className="text-center">
@@ -79,7 +79,7 @@ const FeesBalance = () => {
                     />
                   </div>
                 </td>
-                <td>STUDENT NAMES</td>
+                <td style={{ whiteSpace: "nowrap" }}>STUDENT NAMES</td>
                 <td className="font-bold"> {studentDetail.name}</td>
               </tr>
               <tr>
@@ -89,7 +89,7 @@ const FeesBalance = () => {
                 </td>
               </tr>
               <tr>
-                <td>ACADEMIC STATUS</td>
+                <td style={{ whiteSpace: "nowrap" }}>ACADEMIC STATUS</td>
                 <td className="font-bold">NORMAL PROGRESS</td>
               </tr>
               <tr>
@@ -97,7 +97,7 @@ const FeesBalance = () => {
                 <td className="font-bold">MAIN CAMPUS</td>
               </tr>
               <tr>
-                <td>CURR. STUDY YEAR</td>
+                <td style={{ whiteSpace: "nowrap" }}>CURR. STUDY YEAR</td>
                 <td className="font-bold">YEAR 2</td>
               </tr>
               <tr>

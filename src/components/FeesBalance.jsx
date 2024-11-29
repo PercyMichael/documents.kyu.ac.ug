@@ -63,9 +63,9 @@ const FeesBalance = () => {
                   >
                     <img
                       alt="avatar"
-                      className="ant-image-img text-centertext-center mt-4 css-g1befh"
+                      className="ant-image-img text-centertext-center mt-4 css-g1befh hidden md:block"
                       src={Student}
-                      width="100"
+                      width="200"
                       height="100"
                       style={{ maxHeight: "120px" }}
                     />

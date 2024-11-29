@@ -38,7 +38,17 @@ const StudentPage = () => {
                 STUDENT EXAMINATION PERMIT
               </div>
               <div className="text-gray-500 text-xs">
-                VERIFIED ON: Thursday, November 28th 2024, 11:17:51 am
+                VERIFIED ON:{" "}
+                {new Date().toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                  weekday: "long",
+                  hour: "2-digit",
+                  minute: "2-digit",
+                  second: "2-digit",
+                  hour12: true,
+                })}
               </div>
             </div>
           </header>
